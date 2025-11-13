@@ -33,14 +33,22 @@ const galleryData = {
   'Mongolia Mission': [
     { src: '/gallery/mongolia/1.jpeg', alt: ''},
     { src: '/gallery/mongolia/2.jpeg', alt: ''},
-    { src: '/gallery/mongolia/3.jpg', alt: ''},
-    { src: '/gallery/mongolia/4.jpg', alt: ''},
-    { src: '/gallery/mongolia/5.jpg', alt: ''},
-    { src: '/gallery/mongolia/6.jpg', alt: ''},
-    { src: '/gallery/mongolia/7.jpg', alt: ''},
+    { src: '/gallery/mongolia/3.JPG', alt: ''},
+    { src: '/gallery/mongolia/4.JPG', alt: ''},
+    { src: '/gallery/mongolia/5.JPG', alt: ''},
+    { src: '/gallery/mongolia/6.JPG', alt: ''},
+    { src: '/gallery/mongolia/7.JPG', alt: ''},
   ],
-  'Leadership Events': [
-    // { src: '/gallery/leadership/ptk-event.jpg', alt: 'PTK event' },
+  'Docubridge': [
+    { src: '/gallery/Docubridge/docu_1.png', alt: '' },
+    { src: '/gallery/Docubridge/docu_2.png', alt: '' },
+    { src: '/gallery/Docubridge/docu_3.png', alt: '' },
+    { src: '/gallery/Docubridge/docu_4.png', alt: '' },
+    { src: '/gallery/Docubridge/docu_5.png', alt: '' },
+    { src: '/gallery/Docubridge/Slide1.jpeg', alt: '' },
+    { src: '/gallery/Docubridge/Slide2.jpeg', alt: '' },
+    { src: '/gallery/Docubridge/Slide3.jpeg', alt: '' },
+    { src: '/gallery/Docubridge/Slide4.jpeg', alt: '' },
   ],
   'TOM:ATL': [
     { src: '/gallery/TOM/tom.png', alt: 'Makeathon' },
@@ -55,9 +63,9 @@ export default function Gallery() {
 
   const categories = [
     { title: 'Research Lab', color: 'bg-blue-100' },
-    { title: 'ISBI 2024', color: 'bg-green-100' },
     { title: 'Mongolia Mission', color: 'bg-orange-100' },
-    { title: 'Leadership Events', color: 'bg-purple-100' },
+    { title: 'Docubridge', color: 'bg-purple-100' },
+    { title: 'ISBI 2024', color: 'bg-green-100' },
     { title: 'TOM:ATL', color: 'bg-teal-100' },
     { title: 'Campus Life', color: 'bg-indigo-100' },
   ]
