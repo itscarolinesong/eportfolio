@@ -54,7 +54,7 @@ const galleryData = {
     { src: '/gallery/TOM/tom.png', alt: 'Makeathon' },
   ],
   'Campus Life': [
-    // { src: '/gallery/campus/gatech-1.jpg', alt: 'Georgia Tech campus' },
+    { src: '/gallery/life/kudh.jpeg', alt: '' },
   ],
 }
 
