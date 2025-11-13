@@ -51,7 +51,7 @@ const galleryData = {
 }
 
 export default function Gallery() {
-  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string; category: string; index: number } | null>(null)
+  const [selectedImage, setSelectedImage] = useState<{ src: string; alt?: string; category: string; index: number } | null>(null)
 
   const categories = [
     { title: 'Research Lab', color: 'bg-blue-100' },
